@@ -1,0 +1,19 @@
+#!/bin/bash
+
+connecte=0;
+image=0;
+while [ $connecte -ne 1 ]; do
+        ping -c 3 hsncf.g-ny.org
+        if [ $? -eq  0 ]; then  # ping OK
+                pkill feh ;     # Tuer le viewer d'image (sans vérifier s'il es$
+                connecte=1 ;    # Sortie du while
+        else    # pas de connexion
+                # Afficher l'image (si elle ne l'est pas déjà, d'où la variable$
+                if [ $image -ne 1 ]; then
+                        image=1 ;
+                        feh -Z -F ~/images/noconnection.jpg &
+                fi
+                sleep 1 ;
+        fi
+done
+chromium --noerrdialogs --kiosk http://hsncf.g-ny.org/depart.php 

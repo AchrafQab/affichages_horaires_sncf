@@ -1,0 +1,548 @@
+*{
+	margin: 0px;
+}
+	
+html {
+	/* background-image: url("../logos/centreprouve_noirwp_80p.jpg"); */
+	background-repeat: no-repeat;
+	background-size: cover; 
+	width:100%;
+	height:100%;
+}
+html {
+	background-color:#000000;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	width:100%;
+	height:100%;
+}
+#body{
+	width: auto;
+	background-color:#000000;
+	height: 100%;
+	font-family: 'OpenSans-Light';
+}
+
+/* Definition des deux parties de notre ecran, leurs taille minimales et leurs pourcentages. */
+#sideleft{
+	position:absolute;
+	width:330px;
+	/* height : 100%; */
+	min-height : 100%;
+	max-height : 1015px;
+}
+#sideright{
+	margin-left : 340px; 
+	position:absolute;
+/*	width: 81.197917%;	/* Pour une taille optimale d'ecran de 1920 px */
+	width: 81% ;
+	height : 100%;
+	max-height : 1015px;	
+}
+/* Outil principal pour la mise en forme de l'application, definition des blocs de couleurs noirs autour des differents elements, ainsi que de leurs marges */
+.module{
+	position : absolute;
+	float:left;
+	margin:7px 7px 7px 7px;
+	/* background-color:#000000; */
+}
+/* Format du div contenant les tableaux différents */
+#cadre_info{
+	width: 100%;
+	height: 100%;
+}
+
+/* Definition du tableau*/
+#table{
+	font-family: 'OpenSans-Regular';
+	font-size: 60px;
+	line-height: 1px;
+	height: 83%;
+	/* width: 100%; */
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0px 0px;
+  }
+
+
+
+/* Definition de la taille du tableau, ici on lui dit de prendre la taille de son conteneur */
+.wrapinfo{
+	width: 100%;
+	height:98%;
+	top: 2%;
+	position:absolute;
+	overflow : hidden;
+}
+/* Differents informations supplémentaire pour le wrapinfo, celle-ci nous permettent de bouger exactement ce que l'on veut via le javascript */
+/* Rappel : dans le javascript nous allons chercher le conteneur ul, et dans ce conteneur, on decalle les li vers le haut pour le defilement */
+/* .wrapinfo ul{ 
+	height : 100%;
+	width : 100%;
+	padding:0;
+	margin:0;  
+	list-style: none;  
+}
+.wrapinfo li {  
+	height : 100%;
+	width : auto;
+}  */
+/*Diaporama*/
+
+/* Definition de la div nous permettant d'afficher differentes information (logo, flux d'actualité ... ) */
+#diaporama {
+	width: 150%; /* position de l'image à gauche */
+	height: 36.5%;
+	top: 58%;	/* Position du haut de l'image (par rapport au hatu de l'écran) */
+	/*background-color:#00001a;*/
+}
+.logo_diapo{
+	position : absolute;
+	left : 5%;
+	top : 20%;
+}
+.logo_maintenance{
+	position : absolute;
+	width :100%;
+	height:auto;
+}
+.fullscreen{
+position : absolute;
+	width :100%;
+	height:auto;
+}
+
+/*Meteo*/
+
+/* Div conteneur de toutes les informations que l'ont veut afficher pour la meteo (ville, semaines, temperature, logos) */
+#meteo{
+	width : 100%;
+	padding-left: 25px;
+	margin-top: -70px;
+	/*min-height : 280px;*/
+	height : 33%;
+	top :33.5%; /* position du haut du bloc "météo" */
+	/*background-color:#00001a;*/
+}
+/* Definition des informations principale (ville, temperature et logo ) */
+.ville{
+	text-align: center;
+	line-height: 80%; /* espacement vertical entre le nom de la ville et la météo d'aujourd'hui */
+	text-transform: uppercase;
+	font-size: 50px;
+	color: #fff;
+	margin-top:10%;
+}
+.temps{
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 500px;
+	color: #FFF;
+	padding-right: 20%;
+	padding-top: 4%;
+}
+.temps img{
+	position: absolute;
+	padding-left : 3%;
+	width: 80px;
+	height: 80px;
+	margin-top: -1.5%;
+}
+
+/* Definition des blocs de listes pour les differentes informations secondaire (les jours prochains */
+.semaine{
+	display: inline-block;
+	margin-top: 8%;
+	
+}
+.semaine ul{
+	list-style-type:none;		/*pas de puce pour la liste*/
+	text-transform: uppercase;	/*majuscule*/
+	font-size: 26px;			/*taille police*/
+	color: #fff;
+	vertical-align: top;
+	margin-left : -17%;			/*par defaut on a un padding de 40 px pour placer les puces, mais on ne les affiche pas alors on compense avec ça */
+}
+.semaine li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 20px;
+}
+.semaine img{
+	position : relative;
+	width: 40px;
+	margin-right: 280px;
+	margin-top: -3px;
+}
+#picto_semaine{
+	position:absolute;
+}
+/* Div conteneur des informations relatives aux jours suivants, a la temperature et aux icones */
+#jours{
+		margin-right: -14%; /*espace entre les jours et la température*/
+}
+/* Horloge */
+#horloge{
+	width:100%;
+	height : 28%;
+	color:#fff;
+	text-align: center;
+	/*background-color:#00001a;*/
+}
+.inner_horloge{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.date{
+	text-align: center;
+	line-height: 40px;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+.heure{
+	text-align: center;
+	line-height: 150px;
+	font-size: 120px;
+	color: #FFF;
+}
+
+.hSncf {
+	text-align: center;
+	height: 150px;
+	margin-top: 25px;
+	width: auto;
+} 
+.hsncf img {
+  display: block;
+  float: left;
+  margin-left: 600px;
+  margin-right: auto;
+  /* margin-top: 15px; */
+	padding-bottom: 15px;
+}
+/*  text train départ */
+.hsncf h2 {
+	text-align: right;
+	color:rgb(37, 96, 206);
+	text-transform: uppercase;
+	text-indent: 50px;
+	letter-spacing: 5px;
+	font-weight: 400;
+	padding-right: 50px;
+	font-size: 65px;
+	padding-top: 20px;
+	font:Arial, sans-serif;
+	font-style: normal;
+}
+
+/*  text train arrivée */
+.hsncf h3 {
+	text-align: right;
+	text-shadow: blue;
+	color:#3caf31;
+	text-transform: uppercase;
+	text-indent: 50px;
+	letter-spacing: 5px;
+	font-weight: 400;
+	padding-right: 50px;
+
+	font-size: 65px;
+	padding-top: 20px;
+	font:Arial, sans-serif;
+	font-style: normal;
+}
+
+
+/* Definition de la hauteur et de la police de caractere de l'entete du tableau ( le titre des colonnes ) */
+#thead_train{
+	height : auto;
+	max-height : 120px;
+}
+#table #thead_train th{
+	font-size: 45px;
+	color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+#table td{
+width: auto;
+height: auto;
+
+}
+
+.column_0{					/* Picto transporteur */
+	text-align : center;
+	padding-right : 10px;
+	/* padding-right: 30px; */
+	/* padding-left: 5px; */
+
+}
+ .column_1{					/* N°de voie*/
+	white-space:nowrap;
+	width:10%;
+	font-size: 35px;
+	text-align : left;
+	line-height: 100%;
+	padding-right : 20px;
+}
+.column_2{					/* pas utilisé ? */
+	width : 10%;
+	text-align : center;
+}
+.column_3{					/* heure */
+	width : 15%;
+	text-align : center;
+	padding-right : 40px;
+	font-size: 60px;
+}
+.column_4{					/* Destination */
+	width : 40%;
+	text-align : left;
+	font-size: 60px;
+}
+.column_5{					/* Information */
+	width : 30%;
+	text-align : left;
+	font-size: 40px;
+	padding-right : 30px;
+}
+.column_1 p{
+	margin-bottom: 0rem;
+}
+.column_6{					/* N° ou Picto de voie */
+	min-width : 5%;
+	text-align : center;
+	padding-right : 15px;
+}
+/* Cadrage N° de voie */
+.column_6 h2{					
+	display: inline-block;
+	padding-top: 3px;
+    border-radius: 5px;
+    text-align: center;
+	/* border: 2px solid rgb(255, 255, 255); */
+	font-size: 60px;
+    text-align: center;
+}
+
+
+tbody .column_6 h3 {
+	border: none;
+}
+
+/* Definition de la hauteur et de la police de caractere de l'entete du tableau ( le titre des colonnes ) */
+#thead_air{
+	height : auto;
+	max-height : 120px;
+	width: 20px;
+}
+#table #thead_air th{
+	font-size: 38px;
+	color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 20px
+}
+
+#table td{
+	/*  Taille des lignes du tableau  */
+	height:80px;
+	width:80px;
+}
+
+.column_0_air{					/* N°de vol*/
+	white-space:nowrap;
+	font-size: 25px;
+	width:5%;
+	line-height: 100%;
+	text-align : left;
+	line-height: 100%;
+	padding-right : 10px;
+	padding-left : 10px;
+}
+.column_1_air{					/* DATE */
+	white-space:nowrap;
+	width:10%;
+	text-align : left;
+	line-height: 100%;
+	font-size: 25px;
+	padding-right : 20px;
+	padding-left : 30px;
+}
+.column_2_air{					/* heure */
+	width : 15%;
+	font-size: 35px;
+	text-align : center;
+}
+.column_3_air{					/* destination */
+	white-space:nowrap;
+	width : 26%;
+	font-size: 30px;
+	text-align : left;
+	padding-left: 25px;
+}
+.column_4_air{					/* REMARQUE */
+	width : 20%;
+	white-space:nowrap;
+	font-size: 30px;
+	padding-right: 20px;
+	padding-left: 20px;
+	text-align : left;
+}
+.column_5_air{					/* Type */
+	text-align : center;
+	margin : 5px;
+	font-size: 25px;
+}
+
+.column_6_air{					/* Compagnie */
+	text-align : center;
+	margin : 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+
+@media screen and (max-width: 1800px) {
+.table thead th{
+	font-size: 35px;
+}
+.tablevert thead th{
+	font-size: 35px;
+}
+	.table{
+	font-family: 'OpenSans-Regular';
+	font-size: 50px;
+	line-height : 0px;
+	height:100%;
+	border: 0;
+	border-collapse : collapse;
+	border-spacing: 0px 0px;
+}
+	.tablevert{
+	font-family: 'OpenSans-Regular';
+	font-size: 50px;
+	line-height : 0px;
+	
+	height:100%;
+	border: 0;
+	border-collapse : collapse;
+	border-spacing: 0px 0px;
+}
+.column_1{
+	white-space:nowrap;
+	/* margin-top: 5px; */
+	width:10%;
+	text-align : left;
+	font-size: 25px;
+	line-height: 100%;
+	padding-right :30px;
+}
+.column_2{
+	width : 10%;
+	text-align : center;
+	padding-right : 50px;
+	font-size: 25px;
+}
+.column_3{
+	width : 15%;
+	text-align : center;
+	padding-right : 30px;
+
+}
+.column_4{
+	width : 50%;
+    white-space: nowrap;
+	text-align : left;
+}
+.column_5{
+	width : 20%;
+	text-align : left;
+	padding-right : 30px;
+    white-space: nowrap;
+}
+.column_6{
+	min-width : 5%;
+	text-align : center;
+	padding-right :10px;
+	font-size: 40px;
+}
+
+tbody .column_6 h2{
+	display: inline-block;
+
+    /* border: 2px solid rgb(255, 255, 255); */
+	margin-top: 5px;
+	margin-left: 10px;
+	padding-top: 0px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+
+tbody .column_6 h3{
+	display: inline-block;
+    width: 25px;
+    height:25px;
+    /* border: 2px solid rgb(255, 255, 255); */
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-top: 10px;
+    /* border-radius: 4px; */
+    text-align: center;
+}
+
+.cycle-slideshow { 
+    -webkit-perspective: 1000;
+    -webkit-transform-style: preserve-3d;
+    -moz-perspective: 1000;
+    -moz-transform-style: preserve-3d;
+    -o-perspective: 1000;
+    -o-transform-style: preserve-3d;
+    perspective: 1000;
+    transform-style: preserve-3d;  
+	position : center;
+}
+}
+
+/*Meteo*/
+
+/* Div conteneur de toutes les informations que l'ont veut afficher pour la meteo (ville, semaines, temperature, logos) */
+#meteo{
+	width : 100%;
+	/*min-height : 280px;*/
+	height : 33%;
+	top : 33.5%; /* position du haut du bloc "météo" */
+	/*background-color:#00001a;*/
+}
+
+
+/* Definition des blocs de listes pour les differentes informations secondaire (les jours prochains */
+.semaine{
+	display: inline-block;
+	margin-top: 8%;
+	
+}
+.semaine ul{
+	list-style-type:none;		/*pas de puce pour la liste*/
+	text-transform: uppercase;	/*majuscule*/
+	font-size: 26px;			/*taille police*/
+	color: #fff;
+	vertical-align: top;
+	margin-left : -17%;			/*par defaut on a un padding de 40 px pour placer les puces, mais on ne les affiche pas alors on compense avec ça */
+}
+.semaine li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 20px;
+}
+.semaine img{
+	position : relative;
+	width: 40px;
+	margin-right: 280px;
+	margin-top: -3px;
+}
+#picto_semaine{
+	position:absolute;
+}

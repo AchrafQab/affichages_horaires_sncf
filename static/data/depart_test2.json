@@ -1,0 +1,333 @@
+{
+    "id": "NCY",
+    "maj": "2022-04-14T14:36:15Z",
+    "train": [
+        {
+            "attribut_voie": null,
+            "heure": "14:50",
+            "ligne": 1,
+            "ligne_ter": null,
+            "num": "834123",
+            "origdest": "ST-DIE DES VOSGES",
+            "picto": "40",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "TER",
+            "valid": false,
+            "voie": "1"
+        },
+        {
+            "attribut_voie": null,
+            "heure": "14:50",
+            "ligne": 2,
+            "ligne_ter": null,
+            "num": "88515",
+            "origdest": "LUXEMBOURG",
+            "picto": "40",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "TER",
+            "valid": false,
+            "voie": "3"
+        },
+        {
+            "attribut_voie": null,
+            "heure": "15:00",
+            "ligne": 3,
+            "ligne_ter": null,
+            "num": "68180",
+            "origdest": "LORRAINE TGV",
+            "picto": "1040",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "CAR",
+            "valid": false,
+            "voie": "0"
+        },
+        {
+            "attribut_voie": "I",
+            "heure": "15:14",
+            "ligne": 4,
+            "ligne_ter": null,
+            "num": "835037",
+            "origdest": "STRASBOURG",
+            "picto": "40",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "TER",
+            "valid": false
+        },
+        {
+            "attribut_voie": "I",
+            "heure": "15:20",
+            "ligne": 5,
+            "ligne_ter": null,
+            "num": "835823",
+            "origdest": "REMIREMONT",
+            "picto": "40",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "TER",
+            "valid": false
+        },
+        {
+            "attribut_voie": "I",
+            "heure": "15:20",
+            "ligne": 6,
+            "ligne_ter": null,
+            "num": "837547",
+            "origdest": "METZ",
+            "picto": "40",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "TER",
+            "valid": false
+        },
+        {
+            "attribut_voie": "I",
+            "heure": "15:25",
+            "ligne": 7,
+            "ligne_ter": null,
+            "num": "837549",
+            "origdest": "METZ",
+            "picto": "40",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "TER",
+            "valid": false
+        },
+        {
+            "attribut_voie": "I",
+            "heure": "15:31",
+            "ligne": 8,
+            "ligne_ter": null,
+            "num": "835087",
+            "origdest": "LUNEVILLE",
+            "picto": "40",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "TER",
+            "valid": false
+        },
+        {
+            "attribut_voie": "I",
+            "heure": "15:35",
+            "ligne": 9,
+            "ligne_ter": null,
+            "num": "835650",
+            "origdest": "REVIGNY",
+            "picto": "40",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "TER",
+            "valid": false
+        },
+        {
+            "attribut_voie": "I",
+            "heure": "15:50",
+            "ligne": 10,
+            "ligne_ter": null,
+            "num": "834125",
+            "origdest": "ST-DIE DES V",
+            "picto": "40",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "TER",
+            "valid": false
+        },
+        {
+            "attribut_voie": "I",
+            "heure": "15:50",
+            "ligne": 11,
+            "ligne_ter": null,
+            "num": "88517",
+            "origdest": "LUXEMBOURG",
+            "picto": "40",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "TER",
+            "valid": false
+        },
+        {
+            "attribut_voie": "I",
+            "heure": "15:55",
+            "ligne": 12,
+            "ligne_ter": null,
+            "num": "835769",
+            "origdest": "EPINAL",
+            "picto": "40",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "TER",
+            "valid": false
+        },
+        {
+            "attribut_voie": "I",
+            "heure": "16:07",
+            "ligne": 13,
+            "ligne_ter": null,
+            "num": "836356",
+            "origdest": "TOUL",
+            "picto": "40",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "TER",
+            "valid": false
+        },
+        {
+            "attribut_voie": "I",
+            "heure": "16:11",
+            "ligne": 14,
+            "ligne_ter": null,
+            "num": "2544",
+            "origdest": "PARIS-EST",
+            "picto": "36",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "TGV INOUI",
+            "valid": false
+        },
+        {
+            "attribut_voie": "I",
+            "heure": "16:12",
+            "ligne": 15,
+            "ligne_ter": null,
+            "num": "835023",
+            "origdest": "STRASBOURG",
+            "picto": "40",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "TER",
+            "valid": false
+        },
+        {
+            "attribut_voie": null,
+            "heure": "16:15",
+            "ligne": 16,
+            "ligne_ter": null,
+            "num": "35013",
+            "origdest": "DAMBLAIN",
+            "picto": "1040",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "CAR TER",
+            "valid": false,
+            "voie": "0"
+        },
+        {
+            "attribut_voie": null,
+            "heure": "16:15",
+            "ligne": 17,
+            "ligne_ter": null,
+            "num": "35135",
+            "origdest": "VITTEL",
+            "picto": "1040",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "CAR TER",
+            "valid": false,
+            "voie": "0"
+        },
+        {
+            "attribut_voie": "I",
+            "heure": "16:19",
+            "ligne": 18,
+            "ligne_ter": null,
+            "num": "836225",
+            "origdest": "PT S VINCENT",
+            "picto": "40",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "TER",
+            "valid": false
+        },
+        {
+            "attribut_voie": "I",
+            "heure": "16:20",
+            "ligne": 19,
+            "ligne_ter": null,
+            "num": "835825",
+            "origdest": "REMIREMONT",
+            "picto": "40",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "TER",
+            "valid": false
+        },
+        {
+            "attribut_voie": "I",
+            "heure": "16:20",
+            "ligne": 20,
+            "ligne_ter": null,
+            "num": "837553",
+            "origdest": "METZ",
+            "picto": "40",
+            "trainTypeChoice": {
+                "etat": "",
+                "retard": "",
+                "valid": ""
+            },
+            "type": "TER",
+            "valid": false
+        }
+    ],
+    "trainCount": 20,
+    "valid": false
+}
