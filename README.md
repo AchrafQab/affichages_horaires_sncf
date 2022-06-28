@@ -6,8 +6,7 @@ Application web d'affichage dynamique des horaires en gare SNCF et l'aéroport L
 
 ### url services 
 L'application est actuellement fonctionnelle sur l'url :
-##### 
-https://gaffevlatafdachraf.g-ny.eu/affichages_horaires train_dep=1&train_arr=1&vol_dep=1&vol_arr=1&train_dep_attente=0000&train_arr_attente=1000&vol_dep_attente=2000&vol_arr_attente=4000&code_gare=NCY
+##### https://gaffevlatafdachraf.g-ny.eu/affichages_horaires train_dep=1&train_arr=1&vol_dep=1&vol_arr=1&train_dep_attente=0000&train_arr_attente=1000&vol_dep_attente=2000&vol_arr_attente=4000&code_gare=NCY
 
 Les paramètres de l'url sont les suivants :
 #### Variables d'affichage des tableaux des horaires de trains et avion : 
