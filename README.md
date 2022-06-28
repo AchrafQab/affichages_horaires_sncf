@@ -65,8 +65,4 @@ On peut donc choisir le tableau et le délais d'affichage depuis les paramètres
 ###### #pyhton3 app.py
 
 6/ L'application est lancé sur l'url : 
-##### https://gaffevlatafdachraf.g-ny.eu/affichages_horaires?train_dep=1&train_arr=1&vol_dep=1&vol_arr=1&train_dep_attente=6000&train_arr_attente=4000&vol_dep_attente=6000&vol_arr_attente=4000&code_gare=NCY#� �A�f�f�i�c�h�a�g�e�-�H�o�r�a�i�r�e�s�-�S�N�C�F�
-�
-�#� �A�f�f�i�c�h�a�g�e�-�H�o�r�a�i�r�e�s�-�S�N�C�F�
-�
-�
+##### https://gaffevlatafdachraf.g-ny.eu/affichages_horaires?train_dep=1&train_arr=1&vol_dep=1&vol_arr=1&train_dep_attente=6000&train_arr_attente=4000&vol_dep_attente=6000&vol_arr_attente=4000&code_gare=NCY
